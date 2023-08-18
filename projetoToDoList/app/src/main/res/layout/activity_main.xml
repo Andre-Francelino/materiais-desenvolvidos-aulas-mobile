@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity"
+    android:padding="12dp"
+    >
+
+    <Button
+        android:id="@+id/button_nova_tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nova_tarefa"
+        android:drawableLeft="@drawable/ic_add"
+        />
+
+    <TextView
+        android:text="@string/minhas_tarefas"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+
+    <ListView
+        android:id="@+id/list_view_tarefas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/text_view_sem_tarefas"
+        android:text="@string/mensagem_nenhuma_tarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="#9c9c9c"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

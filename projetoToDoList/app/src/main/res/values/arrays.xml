@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categorias">
+        <item name="trabalho">Trabalho</item>
+        <item name="casa">Casa</item>
+        <item name="estudo">Estudo</item>
+    </array>
+</resources>

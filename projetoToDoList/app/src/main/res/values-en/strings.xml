@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDoList-Aula-06</string>
+    <!-- MainActivity-->
+    <string name="nova_tarefa">New Task</string>
+    <string name="minhas_tarefas">My Tasks</string>
+    <string name="mensagem_nenhuma_tarefa">No tasks found.</string>
+    <!-- TarefaActivty -->
+    <string name="descricao">Description</string>
+    <string name="categoria">Category</string>
+    <string name="salvar">Save</string>
+    <string name="cancelar">Canceel</string>
+    <string name="mensagem_tarefa_adicionada">Task saved successfuly</string>
+    <string name="excluir">Delete</string>
+    <string name="editar_tarefa">Edit Task</string>
+</resources>
